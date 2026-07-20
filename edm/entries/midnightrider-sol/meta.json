@@ -4,7 +4,7 @@
   "sort_name": "MidnightRider.sol",
   "status": "published",
   "category": "project",
-  "short_description": "- Acadian Builder-Creator ⭐️💙🤍❤️ Better Together.",
+  "short_description": "Acadian Builder-Creator ⭐️💙🤍❤️ — Better Together.",
   "location": {
     "public_area": "Canada",
     "municipality": "Canada"
@@ -20,9 +20,9 @@
   ],
   "meta": {
     "created": "2026-07-20T15:50:30Z",
-    "updated": "2026-07-20T15:50:30Z",
+    "updated": "2026-07-20T16:11:55Z",
     "steward": "MidnightRider.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {
     "status": "steward-verified",
