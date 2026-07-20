@@ -1,0 +1,39 @@
+# Acadie.sol Event Schema
+# Events are time-based records. They link to entries and locations, but do not live inside them.
+id:
+  type: string
+  required: true
+status:
+  type: string
+  required: true
+  allowed: [draft, placeholder, active, published, archived, cancelled]
+title:
+  type: localized
+  required: true
+summary:
+  type: localized
+  required: false
+starts_at:
+  type: datetime
+  required: false
+ends_at:
+  type: datetime
+  required: false
+expires_at:
+  type: datetime
+  required: false
+location_id:
+  type: string
+  required: false
+host_entry_ids:
+  type: array
+  required: false
+performer_entry_ids:
+  type: array
+  required: false
+sponsor_entry_ids:
+  type: array
+  required: false
+_schema_notes: |
+  Keep event records independent. Venue pages should render events by relationship IDs.
+  Placeholder/sample events must not be mistaken for public truth.

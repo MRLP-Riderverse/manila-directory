@@ -1,0 +1,20 @@
+# Acadie.sol Archive Schema
+# Archive records are after-the-fact preservation items: recaps, stories, Substack/Notion links.
+id:
+  type: string
+  required: true
+title:
+  type: localized
+  required: true
+related_event_ids:
+  type: array
+  required: false
+related_entry_ids:
+  type: array
+  required: false
+related_location_ids:
+  type: array
+  required: false
+external_sources:
+  type: array
+  required: false

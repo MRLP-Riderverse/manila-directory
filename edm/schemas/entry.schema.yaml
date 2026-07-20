@@ -1,0 +1,208 @@
+# Acadie.sol Directory Entry Schema
+# YAML = Structure — the contract layer for what a directory entry contains
+# This schema defines what fields exist, which are required, and allowed values.
+# Used by agents to validate meta.json and by humans to understand what to write.
+
+# Core identity — required for every entry
+slug:
+  type: string
+  required: true
+  description: "URL-safe identifier, matches the entry folder name (e.g. 'acadian-digital-coop')"
+  pattern: "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+
+name:
+  type: string
+  required: true
+  description: "Human-readable display name"
+
+status:
+  type: string
+  required: false
+  default: published
+  description: "Lifecycle status for export/rendering"
+  allowed:
+    - draft
+    - published
+    - archived
+
+sort_name:
+  type: string
+  required: false
+  description: "Optional normalized name for alphabetical sorting"
+
+brand_name:
+  type: string
+  required: false
+  description: "Optional parent brand for chain or multi-location entries"
+
+branch_name:
+  type: string
+  required: false
+  description: "Optional branch/location disambiguator"
+
+aliases:
+  type: array
+  required: false
+  items: string
+  description: "Common local names, old names, or conversational search variants"
+
+category:
+  type: string
+  required: true
+  description: "What kind of entity this entry represents"
+  allowed:
+    - artist
+    - musician
+    - business
+    - food
+    - civic
+    - organization
+    - venue
+    - event
+    - community
+    - project
+    - volunteer
+    - craftsperson
+    - elder
+    - educator
+
+# Description — required but can be brief
+short_description:
+  type: string
+  required: true
+  max_length: 160
+  description: "One-liner for directory cards and search results"
+
+# Location — optional but strongly encouraged
+location:
+  type: object
+  required: false
+  fields:
+    province:
+      type: string
+      required: false
+      description: "Administrative province / state label (e.g. 'NB')"
+    region:
+      type: string
+      required: false
+      description: "Cultural or local region container (e.g. 'Chaleur', 'Acadie-Bathurst', 'Nouveau-Brunswick')"
+    municipality:
+      type: string
+      required: false
+      description: "Town, city, or locality"
+    public_area:
+      type: string
+      required: false
+      description: "Public browse label used by the site (e.g. 'Acadie-Bathurst')"
+    geocircle:
+      type: string
+      required: false
+      description: "Travel-time geography description (e.g. '1hr from Moncton', 'Chéticamp peninsula')"
+
+# Contact & presence — optional
+contact:
+  type: object
+  required: false
+  description: "Public contact/action fields exported for cards and future detail pages"
+  fields:
+    address:
+      type: string
+      required: false
+    hours:
+      type: string
+      required: false
+    phone:
+      type: string
+      required: false
+    email:
+      type: string
+      required: false
+    website:
+      type: url
+      required: false
+
+links:
+  type: object
+  required: false
+  fields:
+    website:
+      type: url
+      required: false
+    social:
+      type: array
+      required: false
+      items:
+        platform: string   # e.g. "instagram", "facebook", "bandcamp"
+        url: url
+    contact:
+      type: string
+      required: false
+      description: "Email, phone, or preferred contact method"
+
+# Metadata — auto-managed where possible
+meta:
+  type: object
+  required: true
+  fields:
+    created:
+      type: datetime
+      required: true
+      description: "ISO 8601 timestamp of entry creation"
+    updated:
+      type: datetime
+      required: true
+      description: "ISO 8601 timestamp of last modification"
+    steward:
+      type: string
+      required: false
+      description: "Who vouches for this entry (elder vouching pattern)"
+    entry_version:
+      type: integer
+      required: true
+      default: 1
+      description: "Incremented on each edit"
+
+# Tags — optional, for discovery and filtering
+tags:
+  type: array
+  required: false
+  items: string
+  description: "Freeform tags for search and categorization (e.g. 'fiddle', 'digital', 'dyke-building', 'francophone')"
+
+# Relationships — optional, for connecting entries
+related:
+  type: array
+  required: false
+  items:
+    slug: string    # references another entry's slug
+    relation: string  # e.g. "member-of", "collaborates-with", "performs-at", "sibling-community"
+
+# Verification — optional, Phase 2 concern
+verification:
+  type: object
+  required: false
+  fields:
+    status:
+      type: string
+      allowed:
+        - unverified    # default for Phase 1
+        - steward-verified  # elder vouch pattern
+        - community-confirmed  # multiple community members confirm
+        - on-chain  # Phase 2: Solana attestation
+    source:
+      type: string
+      required: false
+      description: "How was this entry discovered/created (e.g. 'walking-the-path', 'community-submission', 'self-submitted')"
+
+# Notes on the schema itself
+_schema_notes: |
+  This schema is intentionally loose for Phase 1.
+  Only slug, name, category, short_description, and meta (created/updated/version)
+  are required. Everything else is encouraged but optional.
+  
+  The point is to start writing entries and discover what fields actually matter
+  through practice — not to over-constrain before we know the shape.
+  
+  When you find yourself wanting a field that doesn't exist here,
+  add it to your entry's meta.json and note it in inbox/ as a schema candidate.
+  After 3-5 entries, we'll revise the schema based on real usage.

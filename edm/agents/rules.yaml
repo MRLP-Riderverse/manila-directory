@@ -1,0 +1,49 @@
+# Agent Rules for acadie_sol_directory
+# How agents should read, write, validate, and process directory entries.
+
+reading: |
+  - Always read entry.md for human-facing content.
+  - Always read meta.json for structured metadata.
+  - Cross-reference: if meta.json references tags, categories, or related slugs,
+    verify they exist in the directory before trusting the link.
+
+writing: |
+  1. Draft entries go to inbox/ first — no schema validation needed at draft stage.
+  2. When moving from inbox to entries/, create the folder entries/<slug>/.
+  3. Write entry.md (Markdown = Truth) — the human-readable content.
+  4. Write meta.json (JSON = Interop) — the machine-readable index card.
+  5. Validate meta.json against schemas/entry.schema.yaml before committing.
+  6. Log the addition in logs/ with timestamp format.
+
+validation: |
+  - Every entry MUST have both entry.md and meta.json.
+  - meta.json MUST contain: slug, name, category, short_description, meta (created, updated, entry_version).
+  - slug MUST match the folder name.
+  - category MUST be one of the allowed values in the schema.
+  - dates MUST be ISO 8601.
+  - If verification.status is set to "steward-verified" or above, verification.source is required.
+
+processing: |
+  - When generating HTML from entries, use entry.md for content, meta.json for cards/indexes.
+  - Preserve the Markdown source — HTML is publication (disposable), Markdown is truth (sacred).
+  - Never auto-delete entries. Mark as stale or archived if needed.
+  - When entries reference each other via related, build bidirectional links in rendered output.
+
+schema_evolution: |
+  This is Phase 1. The schema is intentionally loose.
+  When a field is needed that does not exist in the schema:
+  1. Add it to the entry meta.json anyway.
+  2. Leave a note in inbox/ describing the new field and why it was needed.
+  3. After 3-5 entries with the same need, propose a schema revision.
+  Schema revisions should be logged in logs/.
+
+privacy: |
+  - Never include personal contact info without consent.
+  - Default to "collect needs, not identities."
+  - If an entry contains sensitive info, flag it for steward review.
+
+phase_awareness: |
+  - Phase 1: Open directory. No gate. Community submissions welcome. Verification is optional.
+  - Phase 2: Verified layer. Solana identity + steward attestation. On-chain verification.
+  - Phase 3: Coordination layer. Community requests, geocircle matching, "I need something" feature.
+  - Build for Phase 1. Design for Phase 2 and 3. Do not implement ahead of need.

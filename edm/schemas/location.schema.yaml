@@ -1,0 +1,30 @@
+# Acadie.sol Location Schema
+# Locations are reusable places/corridors/sub-communities. Entries and events point here.
+id:
+  type: string
+  required: true
+kind:
+  type: string
+  required: true
+  allowed: [place, venue, corridor, district, trailhead, outdoor-site, community]
+title:
+  type: localized
+  required: true
+region_id:
+  type: string
+  required: false
+street_id:
+  type: string
+  required: false
+address:
+  type: string
+  required: false
+entry_ids:
+  type: array
+  required: false
+nearby_location_ids:
+  type: array
+  required: false
+_schema_notes: |
+  Use locations to model actual reusable physical context. This avoids hand-maintaining
+  every related-business pair and lets scripts infer street/corridor adjacency later.

@@ -1,0 +1,34 @@
+{
+  "project": "manila_directory_edm",
+  "version": "0.1.0",
+  "phase": 1,
+  "phase_description": "English-first EDM artist directory foundation",
+  "entry_count": 0,
+  "feed": "feed.xml",
+  "categories": [
+    "artist",
+    "musician",
+    "collective",
+    "label",
+    "venue",
+    "event",
+    "community",
+    "project"
+  ],
+  "regions": [
+    "Metro Manila",
+    "Manila",
+    "Quezon City",
+    "Makati",
+    "Pasig",
+    "Taguig",
+    "other"
+  ],
+  "languages": [
+    "en"
+  ],
+  "future_languages": [
+    "tl"
+  ],
+  "steward": "Manila EDM directory steward"
+}

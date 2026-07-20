@@ -1,0 +1,12 @@
+# Acadie.sol Region Schema
+id:
+  type: string
+  required: true
+title:
+  type: localized
+  required: true
+summary:
+  type: localized
+  required: false
+_schema_notes: |
+  Regions group entries/events/locations for browse, export, and future forkability.
