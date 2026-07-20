@@ -1,0 +1,31 @@
+{
+  "slug": "midnightrider-sol",
+  "name": "MidnightRider.sol",
+  "sort_name": "MidnightRider.sol",
+  "status": "published",
+  "category": "project",
+  "short_description": "- Acadian Builder-Creator ⭐️💙🤍❤️ Better Together.",
+  "location": {
+    "public_area": "Canada",
+    "municipality": "Canada"
+  },
+  "tags": [
+    "riderverse",
+    "project LP",
+    "canada"
+  ],
+  "aliases": [
+    "MRLP",
+    "Midnight Rider"
+  ],
+  "meta": {
+    "created": "2026-07-20T15:50:30Z",
+    "updated": "2026-07-20T15:50:30Z",
+    "steward": "MidnightRider.sol",
+    "entry_version": 1
+  },
+  "verification": {
+    "status": "steward-verified",
+    "source": "self-submitted"
+  }
+}
