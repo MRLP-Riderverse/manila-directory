@@ -1,0 +1,36 @@
+{
+  "slug": "apotheka",
+  "name": "Apotheka",
+  "sort_name": "Apotheka",
+  "status": "published",
+  "category": "venue",
+  "short_description": "A Poblacion underground institution with baile-funk, global club, house, Detroit techno, jungle, and '90s electro across two floors.",
+  "location": {
+    "public_area": "Poblacion / Makati, Manila",
+    "municipality": "Makati",
+    "region_id": "metro-manila"
+  },
+  "region_id": "metro-manila",
+  "tags": ["underground", "indoor", "recurring-night", "collective-driven", "queer-friendly", "baile-funk", "global-club", "house", "techno", "jungle", "breaks", "afro-house"],
+  "contact": {
+    "address": "G/F White Rabbit Bldg, 5672 Dona Carmen St cor. General Luna, Makati 1210",
+    "hours": "Wednesday – Saturday 9:00 PM – 4:00 AM",
+    "phone": "+63 936 981 5462",
+    "email": "marco@quayconcepts.ph",
+    "website": "https://apothekamanila.com/"
+  },
+  "related": [
+    {"slug": "kinki", "relation": "related-scene"},
+    {"slug": "unknwn", "relation": "related-scene"}
+  ],
+  "meta": {
+    "created": "2026-07-21T13:18:41Z",
+    "updated": "2026-07-21T13:18:41Z",
+    "steward": "Josh",
+    "entry_version": 1
+  },
+  "verification": {
+    "status": "steward-verified",
+    "source": "public-source"
+  }
+}

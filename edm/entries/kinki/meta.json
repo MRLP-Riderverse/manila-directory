@@ -1,0 +1,34 @@
+{
+  "slug": "kinki",
+  "name": "KINKI",
+  "sort_name": "KINKI",
+  "status": "published",
+  "category": "venue",
+  "short_description": "A Poblacion-Makati venue and event series delivering raw, community-led programming across house, techno, breaks, and experimental nights.",
+  "location": {
+    "public_area": "Poblacion / Makati, Manila",
+    "municipality": "Makati",
+    "region_id": "metro-manila"
+  },
+  "region_id": "metro-manila",
+  "tags": ["underground", "indoor", "recurring-night", "collective-driven", "house", "techno", "breaks", "experimental", "queer"],
+  "contact": {
+    "address": "Clustered around Poblacion / Makati",
+    "hours": "Multiple nights weekly; Thursday – Saturday",
+    "website": "https://linktr.ee/kinki.love"
+  },
+  "related": [
+    {"slug": "apotheka", "relation": "related-scene"},
+    {"slug": "unknwn", "relation": "related-scene"}
+  ],
+  "meta": {
+    "created": "2026-07-21T13:18:41Z",
+    "updated": "2026-07-21T13:18:41Z",
+    "steward": "Josh",
+    "entry_version": 1
+  },
+  "verification": {
+    "status": "steward-verified",
+    "source": "public-source"
+  }
+}
