@@ -1,0 +1,54 @@
+{
+  "slug": "joshua-den-ouden",
+  "name": "Joshua Den Ouden",
+  "sort_name": "Den Ouden, Joshua",
+  "status": "published",
+  "category": "project",
+  "short_description": "JoshShoot.sol helps build Southeast Asia's creative culture through film, photography, web3, events, and live experiences.",
+  "location": {
+    "public_area": "The Philippines / Southeast Asia",
+    "municipality": "The Philippines",
+    "region_id": "southeast-asia"
+  },
+  "region_id": "southeast-asia",
+  "tags": [
+    "creator",
+    "cultural-infrastructure",
+    "film",
+    "photography",
+    "web3",
+    "events",
+    "creative-culture",
+    "southeast-asia",
+    "community-building"
+  ],
+  "aliases": [
+    "JoshShoot.sol",
+    "JoshShoot"
+  ],
+  "contact": {
+    "website": "https://linktr.ee/joshshoot.sol"
+  },
+  "links": {
+    "website": "https://linktr.ee/joshshoot.sol",
+    "social": [
+      {"platform": "instagram", "url": "https://www.instagram.com/joshuadenouden"},
+      {"platform": "soundcloud", "url": "https://soundcloud.com/joshua-den-ouden"}
+    ]
+  },
+  "related": [
+    {"slug": "apotheka", "relation": "related-scene"},
+    {"slug": "unknwn", "relation": "related-scene"},
+    {"slug": "kinki", "relation": "related-scene"}
+  ],
+  "meta": {
+    "created": "2026-07-22T13:35:56Z",
+    "updated": "2026-07-22T13:35:56Z",
+    "steward": "JoshShoot.sol",
+    "entry_version": 1
+  },
+  "verification": {
+    "status": "steward-verified",
+    "source": "self-submitted"
+  }
+}
