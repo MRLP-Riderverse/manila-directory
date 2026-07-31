@@ -1,0 +1,30 @@
+{
+  "slug": "luna",
+  "name": "Luna",
+  "sort_name": "Luna",
+  "aliases": ["heyitslunastardust"],
+  "status": "published",
+  "category": "artist",
+  "short_description": "Manila selector exploring dreamy house, breaks, ambient, and club music through a femme-led local perspective.",
+  "location": {
+    "public_area": "Metro Manila",
+    "municipality": "Manila",
+    "region_id": "metro-manila"
+  },
+  "region_id": "metro-manila",
+  "tags": ["underground", "local", "MCR", "house", "breaks", "ambient", "club", "femme"],
+  "contact": {"website": "https://soundcloud.com/heyitslunastardust"},
+  "links": {
+    "social": [
+      {"platform": "soundcloud", "url": "https://soundcloud.com/heyitslunastardust"},
+      {"platform": "instagram", "url": "https://www.instagram.com/lunastardust__/"}
+    ]
+  },
+  "meta": {
+    "created": "2026-07-31T21:48:04Z",
+    "updated": "2026-07-31T21:48:04Z",
+    "steward": "JoshShoot.sol",
+    "entry_version": 1
+  },
+  "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
+}

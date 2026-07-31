@@ -1,0 +1,30 @@
+{
+  "slug": "jesse-g",
+  "name": "Jesse G",
+  "sort_name": "Jesse G",
+  "status": "published",
+  "category": "artist",
+  "short_description": "European-based techno selector with Manila roots, known for hypnotic, groovy, vinyl-conscious sets.",
+  "location": {
+    "public_area": "Germany / Manila",
+    "municipality": "Manila",
+    "region_id": "metro-manila"
+  },
+  "region_id": "metro-manila",
+  "tags": ["underground", "EuropeanTechno", "Berghain", "groovy", "techno", "vinyl", "hypnotic"],
+  "contact": {"email": "jamila@minor-am.com", "website": "https://soundcloud.com/jessegofficial"},
+  "links": {
+    "social": [
+      {"platform": "soundcloud", "url": "https://soundcloud.com/jessegofficial"},
+      {"platform": "instagram", "url": "https://www.instagram.com/jesse_g/"}
+    ],
+    "email": ["thisisjesseg@gmail.com"]
+  },
+  "meta": {
+    "created": "2026-07-31T21:48:04Z",
+    "updated": "2026-07-31T21:48:04Z",
+    "steward": "JoshShoot.sol",
+    "entry_version": 1
+  },
+  "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
+}

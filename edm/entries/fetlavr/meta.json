@@ -1,0 +1,33 @@
+{
+  "slug": "fetlavr",
+  "name": "Fetlavr",
+  "sort_name": "Fetlavr",
+  "status": "published",
+  "category": "artist",
+  "short_description": "Locally rooted Manila selector working across techno, house, and experimental music.",
+  "location": {
+    "public_area": "Poblacion / Manila",
+    "municipality": "Manila",
+    "region_id": "metro-manila"
+  },
+  "region_id": "metro-manila",
+  "tags": ["underground", "local", "Poblacion", "MCR", "techno", "house", "experimental"],
+  "contact": {"website": "https://soundcloud.com/fetlavr"},
+  "links": {
+    "social": [
+      {"platform": "soundcloud", "url": "https://soundcloud.com/fetlavr"},
+      {"platform": "instagram", "url": "https://www.instagram.com/fetlavr/"}
+    ]
+  },
+  "related": [
+    {"slug": "kinki", "relation": "related-scene"},
+    {"slug": "apotheka", "relation": "related-scene"}
+  ],
+  "meta": {
+    "created": "2026-07-31T21:48:04Z",
+    "updated": "2026-07-31T21:48:04Z",
+    "steward": "JoshShoot.sol",
+    "entry_version": 1
+  },
+  "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
+}

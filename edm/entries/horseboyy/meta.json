@@ -1,0 +1,34 @@
+{
+  "slug": "horseboyy",
+  "name": "Horseboyy",
+  "sort_name": "Horseboyy",
+  "aliases": ["HORSIN AROUND"],
+  "status": "published",
+  "category": "artist",
+  "short_description": "Manila selector blending house, breaks, techno, and booty / club within the city’s post-pandemic underground wave.",
+  "location": {
+    "public_area": "Metro Manila",
+    "municipality": "Manila",
+    "region_id": "metro-manila"
+  },
+  "region_id": "metro-manila",
+  "tags": ["underground", "local", "MCR", "house", "breaks", "techno", "booty-club"],
+  "contact": {
+    "email": "info.horseboyy@gmail.com",
+    "website": "https://www.instagram.com/horse__boyy/"
+  },
+  "links": {
+    "social": [{"platform": "instagram", "url": "https://www.instagram.com/horse__boyy/"}]
+  },
+  "related": [
+    {"slug": "kinki", "relation": "related-scene"},
+    {"slug": "apotheka", "relation": "related-scene"}
+  ],
+  "meta": {
+    "created": "2026-07-31T21:48:04Z",
+    "updated": "2026-07-31T21:48:04Z",
+    "steward": "JoshShoot.sol",
+    "entry_version": 1
+  },
+  "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
+}
