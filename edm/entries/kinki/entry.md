@@ -1,13 +1,12 @@
 # KINKI
 
 ## Public notes
-KINKI operates as both a venue and an event series (kinki.love), delivering raw, community-led programming across multiple nights. Signature series include ELEPHANT THURSDAYS, KINKI LOVE, and PROVIDER. The space favors risk-taking and unpolished underground energy over commercial polish.
+KINKI is a Manila party space and collective that programs alternative electronic nights for a local weekend crowd. It is commonly associated with scene-led bookings, crossover audiences, and an accessible entry point into the city’s underground circuit.
 
 ## Contact
 - Address: Clustered around Poblacion / Makati
 - Hours: Multiple nights weekly; Thursday – Saturday
-- Website: https://linktr.ee/kinki.love
-- Instagram: @kinki.love__
+- Website: https://linktr.ee/kinki.love__
 
 ## Sources
-- https://linktr.ee/kinki.love
+- Updated steward submission via JoshShoot.sol

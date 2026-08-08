@@ -4,7 +4,7 @@
   "sort_name": "Den Ouden, Joshua",
   "status": "published",
   "category": "project",
-  "short_description": "JoshShoot.sol helps build Southeast Asia's creative culture through film, photography, web3, events, and live experiences.",
+  "short_description": "Manila DJ and creative practitioner working across club culture, media, and digital systems through a research-driven local lens.",
   "location": {
     "public_area": "The Philippines / Southeast Asia",
     "municipality": "The Philippines",
@@ -43,9 +43,9 @@
   ],
   "meta": {
     "created": "2026-07-22T13:35:56Z",
-    "updated": "2026-07-22T13:35:56Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {
     "status": "steward-verified",

@@ -4,7 +4,7 @@
   "sort_name": "Apotheka",
   "status": "published",
   "category": "venue",
-  "short_description": "A Poblacion underground institution with baile-funk, global club, house, Detroit techno, jungle, and '90s electro across two floors.",
+  "short_description": "Multi-room Poblacion club with global club, baile funk, and house upstairs; techno, jungle, and electro downstairs.",
   "location": {
     "public_area": "Poblacion / Makati, Manila",
     "municipality": "Makati",
@@ -25,9 +25,9 @@
   ],
   "meta": {
     "created": "2026-07-21T13:18:41Z",
-    "updated": "2026-07-21T13:18:41Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {
     "status": "steward-verified",

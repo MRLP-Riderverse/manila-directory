@@ -4,7 +4,7 @@
   "sort_name": "KINKI",
   "status": "published",
   "category": "venue",
-  "short_description": "A Poblacion-Makati venue and event series delivering raw, community-led programming across house, techno, breaks, and experimental nights.",
+  "short_description": "Manila party space and collective programming alternative electronic nights, scene-led bookings, and accessible underground entry points.",
   "location": {
     "public_area": "Poblacion / Makati, Manila",
     "municipality": "Makati",
@@ -23,9 +23,9 @@
   ],
   "meta": {
     "created": "2026-07-21T13:18:41Z",
-    "updated": "2026-07-21T13:18:41Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {
     "status": "steward-verified",

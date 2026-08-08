@@ -5,7 +5,7 @@
   "aliases": ["heyitslunastardust"],
   "status": "published",
   "category": "artist",
-  "short_description": "Manila selector exploring dreamy house, breaks, ambient, and club music through a femme-led local perspective.",
+  "short_description": "Manila DJ bridging lounge, open-format, and electronic spaces through ambient texture, house structure, and soft club pacing.",
   "location": {
     "public_area": "Metro Manila",
     "municipality": "Manila",
@@ -22,9 +22,9 @@
   },
   "meta": {
     "created": "2026-07-31T21:48:04Z",
-    "updated": "2026-07-31T21:48:04Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
 }

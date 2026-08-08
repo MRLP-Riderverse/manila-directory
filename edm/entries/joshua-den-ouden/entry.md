@@ -1,18 +1,12 @@
 # Joshua Den Ouden
 
 ## Public notes
-Joshua Den Ouden, publicly known as JoshShoot.sol, helps build Southeast Asia's creative culture at the intersection of lens-based media, blockchain culture, and live experiences. His work spans film, photography, web3, events, and creative community-building.
+Joshua Den Ouden is a Manila-based DJ and creative practitioner working between club culture, media, and digital systems. His work draws from Rotterdam, African rhythmic structures, and Southeast Asian context, placing him within the more research-driven side of the local scene.
 
 ## Contact
-- Instagram: @joshuadenouden
-- SoundCloud: https://soundcloud.com/joshua-den-ouden
-- Linktree: https://linktr.ee/joshshoot.sol
-- Project identity: JoshShoot.sol
-
-## Related venues / collectives
-- Apotheka
-- UNKNWN
-- KINKI
+- Website: https://linktr.ee/joshshoot.sol
+- Instagram: https://www.instagram.com/joshuadenouden
+- Soundcloud: https://soundcloud.com/joshua-den-ouden
 
 ## Sources
-- Self-submitted by Joshua Den Ouden
+- Updated steward submission via JoshShoot.sol

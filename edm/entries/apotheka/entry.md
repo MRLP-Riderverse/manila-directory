@@ -1,7 +1,7 @@
 # Apotheka
 
 ## Public notes
-Tucked behind its iconic red door in the heart of Poblacion, Apotheka remains one of Manila's consistent underground institutions. The main floor leans into baile-funk, global club, and house; the mezzanine delivers sharper Detroit techno, jungle, and '90s electro.
+Apotheka is a multi-room club in Poblacion, Makati known for consistent music programming across separate floors. The main room centers on global club, baile funk, and house, while the lower level focuses on techno, jungle, and electro.
 
 ## Contact
 - Address: G/F White Rabbit Bldg, 5672 Dona Carmen St cor. General Luna, Makati 1210
@@ -9,9 +9,6 @@ Tucked behind its iconic red door in the heart of Poblacion, Apotheka remains on
 - Phone: +63 936 981 5462
 - Email: marco@quayconcepts.ph
 - Website: https://apothekamanila.com/
-- Instagram: @apothekamanila
-- Resident Advisor
-- Facebook
 
 ## Sources
-- https://apothekamanila.com/
+- Updated steward submission via JoshShoot.sol

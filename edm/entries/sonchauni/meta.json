@@ -4,7 +4,7 @@
   "sort_name": "Sonchauni",
   "status": "published",
   "category": "artist",
-  "short_description": "Dubai- and Manila-connected selector balancing ambient euphoria and percussive tension through a diasporic practice.",
+  "short_description": "Dubai- and Manila-based Filipino artist connecting DJing, visual direction, collective building, and queer club culture.",
   "location": {
     "public_area": "Dubai / Manila",
     "municipality": "Manila",
@@ -22,9 +22,9 @@
   },
   "meta": {
     "created": "2026-07-31T21:48:04Z",
-    "updated": "2026-07-31T21:48:04Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
 }

@@ -1,15 +1,13 @@
 # UNKNWN
 
 ## Public notes
-UNKNWN transforms Manila's buttoned-up nightlife by relocating parties into unlikely spaces: organic markets, unfinished buildings, warehouses, and heritage sites. The collective prioritizes curated lineups that blend local talent with regional voices, featuring residents Emel Rowe, Samantha Nicole, JAV, Tomas, and Randy Salvador.
+UNKNWN is a Manila-based collective that stages events in warehouses, heritage sites, and other repurposed spaces. Its contribution to the scene lies in combining location strategy, local and regional lineups, and long-term cultural positioning rather than standard venue-based programming.
 
 ## Contact
 - Address: 2288 Don Chino Roces Avenue Extension, Makati 1231
 - Hours: Site-specific (Outdoor / Festival / One-Off)
 - Email: info@unknwn.asia
-- Website: https://unknwn.asia/
-- Instagram
-- Facebook
+- Website: https://www.instagram.com/unknwn.mnl/
 
 ## Sources
-- https://unknwn.asia/
+- Updated steward submission via JoshShoot.sol

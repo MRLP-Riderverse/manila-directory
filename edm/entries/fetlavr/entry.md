@@ -1,13 +1,11 @@
 # Fetlavr
 
 ## Public notes
-Fetlavr is a locally rooted Manila selector moving through techno, house, and experimental music. Documented in the Manila Community Radio archive, the project signals a steady, community-led presence in the city’s underground.
+Fetlavr is a Manila-based producer and DJ active in the city’s queer and underground nightlife circuit. His sets move through techno, house, and experimental club music, with regular appearances at venues such as Apotheka, KINKI, and Elephant.
 
 ## Contact
 - Website: https://soundcloud.com/fetlavr
-- SoundCloud: https://soundcloud.com/fetlavr
 - Instagram: https://www.instagram.com/fetlavr/
 
 ## Sources
-- Manila Community Radio
-- Direct steward submission via JoshShoot.sol
+- Updated steward submission via JoshShoot.sol

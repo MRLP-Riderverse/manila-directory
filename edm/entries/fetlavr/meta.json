@@ -4,7 +4,7 @@
   "sort_name": "Fetlavr",
   "status": "published",
   "category": "artist",
-  "short_description": "Locally rooted Manila selector working across techno, house, and experimental music.",
+  "short_description": "Manila producer and DJ active in queer underground nightlife, across techno, house, and experimental club music.",
   "location": {
     "public_area": "Poblacion / Manila",
     "municipality": "Manila",
@@ -25,9 +25,9 @@
   ],
   "meta": {
     "created": "2026-07-31T21:48:04Z",
-    "updated": "2026-07-31T21:48:04Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {"status": "steward-submitted", "source": "direct-steward-submission"}
 }

@@ -4,7 +4,7 @@
   "sort_name": "UNKNWN",
   "status": "published",
   "category": "organization",
-  "short_description": "A Manila collective that relocates underground parties into organic markets, warehouses, unfinished buildings, and heritage sites.",
+  "short_description": "Manila collective staging events in warehouses, heritage sites, and repurposed spaces through local, regional, and long-term cultural programming.",
   "location": {
     "public_area": "Roving / Multi-Neighborhood, Manila",
     "municipality": "Manila",
@@ -16,7 +16,7 @@
     "address": "2288 Don Chino Roces Avenue Extension, Makati 1231",
     "hours": "Site-specific (Outdoor / Festival / One-Off)",
     "email": "info@unknwn.asia",
-    "website": "https://www.instagram.com/unknwn.mnl/?hl=en"
+    "website": "https://www.instagram.com/unknwn.mnl/"
   },
   "related": [
     {"slug": "apotheka", "relation": "related-scene"},
@@ -24,9 +24,9 @@
   ],
   "meta": {
     "created": "2026-07-21T13:18:41Z",
-    "updated": "2026-07-21T13:18:41Z",
+    "updated": "2026-08-08T00:16:48Z",
     "steward": "JoshShoot.sol",
-    "entry_version": 1
+    "entry_version": 2
   },
   "verification": {
     "status": "steward-verified",

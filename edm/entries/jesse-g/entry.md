@@ -1,15 +1,12 @@
 # Jesse G
 
 ## Public notes
-Jesse G is a European-based techno selector with deep roots in Manila’s scene. Her touring practice reaches Berlin institutions including Berghain, Panorama Bar, and RSO, alongside Nous’Klaer Festival Rotterdam, while her sound remains hypnotic, groovy, and vinyl-conscious.
+Jesse G is a Berlin-based techno DJ of German Filipina and Sicilian descent with a strong profile in European underground club culture. She is associated with Hard Wax, Tresor, and RSO, and is known for precise, vinyl-led sets built from techno, bass, breakbeat, and house.
 
 ## Contact
 - Email: jamila@minor-am.com
-- Email: thisisjesseg@gmail.com
 - Website: https://soundcloud.com/jessegofficial
-- SoundCloud: https://soundcloud.com/jessegofficial
 - Instagram: https://www.instagram.com/jesse_g/
 
 ## Sources
-- https://soundcloud.com/jessegofficial
-- Direct steward submission via JoshShoot.sol
+- Updated steward submission via JoshShoot.sol
